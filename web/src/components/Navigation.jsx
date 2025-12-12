@@ -224,14 +224,14 @@ const UpgradeBanner = ({ mode }) => {
         mt: "auto",
         background:
           mode === "light"
-            ? "linear-gradient(150deg, rgba(196, 228, 221, 0.46) 0%, rgb(255, 255, 255) 100%)"
-            : "linear-gradient(150deg, #203631 0%, #2a6e60 100%)",
+            ? "linear-gradient(150deg, rgba(228, 196, 206, 0.46) 0%, rgb(255, 255, 255) 100%)"
+            : "linear-gradient(150deg, #362021ff 0%, #6e2a5fff 100%)",
       }}
     >
       <Divider />
       <ListItemButton onClick={handleClick} sx={{ pt: 2, pb: 2 }}>
         <ListItemIcon>
-          <CelebrationIcon sx={{ color: mode === "light" ? "#55b86e" : "#00ff95" }} fontSize="large" />
+          <CelebrationIcon sx={{ color: mode === "light" ? "#b8558aff" : "#ff00d0ff" }} fontSize="large" />
         </ListItemIcon>
         <ListItemText
           sx={{ ml: 1 }}
@@ -243,8 +243,8 @@ const UpgradeBanner = ({ mode }) => {
               fontSize: "1.1rem",
               background:
                 mode === "light"
-                  ? "-webkit-linear-gradient(45deg, #09009f, #00ff95 80%)"
-                  : "-webkit-linear-gradient(45deg,rgb(255, 255, 255), #00ff95 80%)",
+                  ? "-webkit-linear-gradient(45deg, #9f9700ff, #ff0073ff 80%)"
+                  : "-webkit-linear-gradient(45deg,rgb(255, 255, 255), #bf00ffff 80%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             },

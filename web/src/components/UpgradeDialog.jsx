@@ -40,7 +40,7 @@ const NoFeature = (props) => <FeatureItem feature={false}>{props.children}</Feat
 const FeatureItem = (props) => (
   <ListItem disableGutters sx={{ m: 0, p: 0 }}>
     <ListItemIcon sx={{ minWidth: "24px" }}>
-      {props.feature && <Check fontSize="small" sx={{ color: "#338574" }} />}
+      {props.feature && <Check fontSize="small" sx={{ color: "#85337eff" }} />}
       {!props.feature && <Close fontSize="small" sx={{ color: "gray" }} />}
     </ListItemIcon>
     <ListItemText sx={{ mt: "2px", mb: "2px" }} primary={<Typography variant="body1">{props.children}</Typography>} />
@@ -314,8 +314,8 @@ const TierCard = (props) => {
   let labelStyle;
   let labelText;
   if (props.selected) {
-    cardStyle = { background: "#eee", border: "3px solid #338574" };
-    labelStyle = { background: "#338574", color: "white" };
+    cardStyle = { background: "#eee", border: "3px solid #85336cff" };
+    labelStyle = { background: "#853350ff", color: "white" };
     labelText = t("account_upgrade_dialog_tier_selected_label");
   } else if (props.current) {
     cardStyle = { border: "3px solid #eee" };

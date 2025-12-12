@@ -69,10 +69,10 @@ export const darkTheme = {
       paper: "#1b2124",
     },
     primary: {
-      main: "#65b5a3",
+      main: "#b5658dff",
     },
     secondary: {
-      main: "#6cead0",
+      main: "#ea6c96ff",
     },
     error: {
       main: "#fe4d2e",
